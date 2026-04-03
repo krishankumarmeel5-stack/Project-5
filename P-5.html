@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Data Collection Form</title>
+</head>
+<body>
+
+<center>
+    <h2><mark>Student Data Collection Form</mark></h2>
+    <p>Please fill all the details carefully. All fields are mandatory.</p>
+</center>
+
+<form>
+
+<fieldset>
+    <legend>Personal Information</legend>
+
+    Full Name: <input type="text" placeholder="Enter your full name"><br><br>
+    Email: <input type="email" placeholder="Enter your email"><br><br>
+    Password: <input type="password" placeholder="Enter password"><br><br>
+    Age: <input type="number"><br><br>
+    Date of Birth: <input type="date"><br><br>
+    Upload Photo: <input type="file"><br><br>
+
+</fieldset>
+
+<br>
+
+<fieldset>
+    <legend>Academic Information</legend>
+
+    Branch:
+    <input type="radio" name="branch"> BCA
+    <input type="radio" name="branch"> B.Tech
+    <br><br>
+
+    Skills:
+    <input type="checkbox"> HTML
+    <input type="checkbox"> CSS
+    <input type="checkbox"> JavaScript
+    <input type="checkbox"> Python
+    <br><br>
+
+    Select Year:
+    <select>
+        <option>--Select Year--</option>
+        <option>1st Year</option>
+        <option>2nd Year</option>
+        <option>3rd Year</option>
+        <option>4th Year</option>
+    </select>
+    <br><br>
+
+    Portfolio URL:
+    <input type="url" placeholder="https://example.com">
+    <br><br>
+
+    Study Time:
+    <input type="time">
+    <br><br>
+
+    Preferred Week:
+    <input type="week">
+    <br><br>
+
+    Preferred Month:
+    <input type="month">
+    <br><br>
+
+    Date & Time of Admission:
+    <input type="datetime-local">
+    <br><br>
+
+</fieldset>
+
+<br>
+
+<fieldset>
+    <legend>Feedback Section</legend>
+
+    Rate Your HTML Knowledge (0-10):
+    <input type="range" min="0" max="10">
+    <br><br>
+
+    Write Your Feedback:<br>
+    <textarea rows="4" cols="40" placeholder="Write your feedback here..."></textarea>
+    <br><br>
+
+    <p><mark>Note:</mark> Range is between 0 to 10.</p>
+</fieldset>
+
+<br>
+
+<center>
+    <input type="submit" value="Submit Form">
+    <input type="reset" value="Reset Form">
+</center>
+
+</form>
+
+<center>
+    <p><b>Thank you for registering! We will contact you soon.</b></p>
+</center>
+
+</body>
+</html>
